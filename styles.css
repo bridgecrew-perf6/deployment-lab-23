@@ -48,11 +48,78 @@ header {
   background-color: black;
   height: 90vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.main > h1 {
+.page-name > h1 {
   color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: large;
+  font-size: 30px;
+  padding: 50px;
+}
+
+img {
+  height: 40vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 40vw;
+}
+
+.info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.info > p {
+  color: white;
+  padding: 10px;
+}
+
+.bold-p {
+  font-weight: bolder;
+}
+
+.buy-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+
+.single-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-link > a {
+  color: white;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+.single-link > p {
+  color: white;
+  padding: 5px;
 }
